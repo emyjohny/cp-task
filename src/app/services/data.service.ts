@@ -13,24 +13,8 @@ export class DataService {
 currentUser;
 
   constructor(private http:HttpClient) { 
-    // this.getDetails()
-  }
-  // saveDetails(){
-  //   localStorage.setItem("accountDetails",JSON.stringify(this.accountDetails))
-  // if(this.currentUser){
-  //   localStorage.setItem("currentUser",JSON.stringify(this.currentUser))
-  // }}
-
-  // getDetails(){
-  //   if(localStorage.getItem("accountDetails")){
-  //     this.accountDetails=JSON.parse(localStorage.getItem("accountDetails"));
-  //   }
-  //   if(localStorage.getItem("currentUser")){
-  //     this.currentUser=JSON.parse(localStorage.getItem("currentUser"));
-  //   }
     
-
-  // }
+  }
 
   login(email,password){
 const data={
